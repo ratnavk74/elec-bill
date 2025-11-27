@@ -1,17 +1,14 @@
 import sys
 
-if len(sys.argv) == 2:
+if len(sys.argv) == 1:
     units = float(sys.argv[1])
     print("User provided units:")
 else:
     units = 100    
     print("No input provided — using default units:")
 
-rate_per_unit = 5.0
-
-bill_amount = units * rate_per_unit
+bill_amount = units * 0.5
 
 print("\n----- ELECTRICITY BILL -----")
 print("Units Consumed:", units)
-print("Rate per Unit: ", rate_per_unit)
 print("Total Bill: ", bill_amount)
