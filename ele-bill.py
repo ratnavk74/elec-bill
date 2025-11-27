@@ -13,5 +13,5 @@ bill_amount = units * rate_per_unit
 
 print("\n----- ELECTRICITY BILL -----")
 print("Units Consumed:", units)
-print("Rate per Unit: ₹", rate_per_unit)
-print("Total Bill: ₹", bill_amount)
+print("Rate per Unit: ", rate_per_unit)
+print("Total Bill: ", bill_amount)
